@@ -46,7 +46,9 @@ function Recall() {
                 through automatic email addresses or manuals import so they can closely monitor their payment due dates, status (free trials,
                 renewal due dates, etc.), and subscription costs to stay up to date and avoid financial losses.</p>
 
-            <button className="primary-button">Prototype</button>
+            <a href='https://www.figma.com/proto/ItpdmiJFcCIi170WsT1SAQ/Untitled?node-id=1580%3A3020&scaling=scale-down&page-id=1580%3A2855&starting-point-node-id=1580%3A3020' target="blank"><button className="primary-button">Prototype</button></a>
+
+            
 
             <h3 className="section-large-title">Process</h3>
 
@@ -204,10 +206,11 @@ function Recall() {
             <div className="ui-container">
                 <div>
                     <img className="ui-img" src={require("../../../assets/images/recall-pictures/uiboard-picture.png")} alt="recall" />
-                    <button className="ui-button">View Board</button>
+                    <a href='https://projects.invisionapp.com/boards/X6434WO8TPW/' target="blank"><button className="ui-button">View Board</button></a>
 
                 </div>
 
+                
             </div>
 
 
@@ -332,9 +335,9 @@ function Recall() {
                     <p className="section-text">To refine the project's style and aestetic I created the following moodboard.<br /><br />
                         The moodboard focusses on blue tones to inspire trust to users and neutral colors to bring balance.<br /><br />
                         The best words that embody the moodboard are: Reliable, Friendly, Trustworthy, Neutral, Calm, and Simple.</p>
-                    <button className="moodboard-button">View Moodboard</button>
+                    <a href='https://projects.invisionapp.com/boards/M6439U4TEYP/' target="blank"><button className="moodboard-button">View Moodboard</button></a>
 
-
+                    
 
                 </div>
 
@@ -556,7 +559,7 @@ function Recall() {
 
                 <div className="prototype-small-section-container">
                     <p className="prototype-small-section-text">If you have not yet experienced recall, here's your chance.</p>
-                    <button className="primary-button">Prototype</button>
+                    <a href='https://www.figma.com/proto/ItpdmiJFcCIi170WsT1SAQ/Untitled?node-id=1580%3A3020&scaling=scale-down&page-id=1580%3A2855&starting-point-node-id=1580%3A3020' target="blank"><button className="primary-button">Prototype</button></a>
 
                 </div>
             </div>
