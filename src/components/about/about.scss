@@ -1,0 +1,53 @@
+.about-text {
+    text-align: left;
+    margin: 20px auto;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    padding: 8px;
+    margin-top: 5px;
+
+
+}
+
+.hellopic {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 350px;
+    max-height: 150px;
+
+}
+
+.container2 {
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 280px) {
+
+    .hellopic {
+
+        max-width: 300px;
+        max-height: 100px;
+        margin-left: 4px;
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 500px) {
+
+    .container2 {
+        max-width: 1000px;
+        margin: 80px auto;
+    }
+
+
+
+}

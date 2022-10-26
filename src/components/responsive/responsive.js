@@ -1,0 +1,45 @@
+import React from "react";
+import './responsive.scss';
+import { Link } from "react-router-dom";
+import { Linkedin } from 'react-bootstrap-icons';
+import { Github } from 'react-bootstrap-icons';
+import { X } from 'react-bootstrap-icons';
+
+
+
+function Responsive() {
+
+    return (
+
+        <div className="responsive-container">
+
+            <div className="close-responsive-container">
+                <Link to="/"><X className="close-responsive-menu" /></Link>
+
+                <Link className="branding-2" to="/">Samuel Turcotte</Link>
+
+            </div>
+
+
+
+            <Link className="branding" to="/">Samuel Turcotte</Link>
+
+            <ul className="responsive-container-menu">
+                <li><Link className="menu-items" to="/about">About</Link></li>
+                <li><Link className="menu-items" to="/">Projects</Link></li>
+                <li><Link className="menu-items" to="/contact">Contact</Link></li>
+                <li className="menu-items"><a className="responsive-menu-icons" href="https://github.com/samuelhturcotte" target="_blank" rel="noreferrer" ><Github /></a></li>
+                <li className="menu-items"><a className="responsive-menu-icons" href="https://linkedin.com/in/samuelhturcotte" target="_blank" rel="noreferrer" ><Linkedin /></a></li>
+            </ul>
+
+        </div>
+
+
+
+
+
+    );
+
+}
+
+export default Responsive;

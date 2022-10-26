@@ -1,0 +1,154 @@
+.nav-main-container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    max-height: 100px;
+    background-color: #111;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+
+.branding {
+    margin: 20px 0 20px 20px;
+    font-size: 1.2rem;
+    color: white !important;
+    font-weight: 600;
+    padding: 3px 0;
+    text-decoration: none;
+}
+
+
+
+.nav-items-container {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 20px 20px 20px 0;
+
+
+}
+
+
+.nav-items a {
+    margin: 0 20px 0 0;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+
+}
+
+.nav-items:hover a:hover {
+    color: #FACF0F !important;
+    cursor: pointer;
+
+
+
+}
+
+
+
+
+
+.nav-icons a {
+    margin-right: 20px;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+}
+
+.nav-icons:hover {
+    color: #FACF0F;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+
+
+}
+
+
+
+svg {
+    margin-top: 4px !important;
+}
+
+svg:hover {
+    color: #FACF0F;
+
+}
+
+.menu-link {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .branding {
+        margin: 20px 20px 20px 0;
+        font-size: 1.2rem;
+        color: white !important;
+        font-weight: 600;
+        padding: 3px 0;
+        text-decoration: none;
+    }
+
+
+    .nav-main-container {
+
+        flex-direction: row-reverse;
+
+    }
+
+    .nav-items-container {
+        display: none;
+
+    }
+
+    .nav-main-container {
+        max-width: 600px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+
+    }
+
+    .menu-link {
+        display: inline;
+    }
+
+
+
+    .menu {
+        display: inline;
+        margin-top: 20px !important;
+        margin-left: 20px;
+        border: 1px solid white;
+        border-radius: 2px;
+        padding: 2px;
+        color: white;
+    }
+
+}

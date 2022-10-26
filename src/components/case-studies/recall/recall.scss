@@ -1,0 +1,662 @@
+$accent-colour: #2E536C;
+
+
+.container-recall {
+
+
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+.section-extra-large-title {
+    color: $accent-colour;
+    font-size: 3.8rem;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.section-large-title {
+    color: $accent-colour;
+    font-size: 2.5rem;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+
+.section-medium-title {
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+.section-medium-center-title {
+    font-size: 2rem;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+
+
+.section-small-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+.section-small-center-title {
+    font-size: 1.5rem;
+    margin: 30px 0 15px 0;
+    font-weight: bold;
+}
+
+
+.section-text {
+    font-size: 1.3rem;
+    text-align: left;
+    line-height: 1.8rem;
+
+}
+
+
+.bullet-point-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+.point {
+
+    margin-bottom: 20px;
+}
+
+.bold-point {
+    font-weight: bolder;
+    color: $accent-colour;
+}
+
+.primary-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: $accent-colour;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid $accent-colour;
+    padding: 7px 15px;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.primary-button:hover {
+    border: 1px solid $accent-colour;
+    background-color: white;
+    color: $accent-colour;
+    cursor: pointer;
+}
+
+.task-flow-img {
+    max-width: 100%;
+}
+
+.case-study-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+.case-study-picture {
+    width: 200px;
+    height: 390px;
+}
+
+
+.project-description-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-description-small-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style: none;
+}
+
+.project-description-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+
+
+.process-picture {
+    margin-top: 20px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+
+
+.demographic-picture {
+    max-width: 100%;
+}
+
+.interview-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.pain-points-title {
+    color: red;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.pain-points-img {
+    max-width: 100%;
+}
+
+
+
+.motivations-title {
+    color: green;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.motivations-img {
+    max-width: 100%;
+}
+
+
+.persona-img {
+    max-width: 100%;
+
+}
+
+.experience-map-img {
+    max-width: 100%;
+
+}
+
+.hmw-text {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: $accent-colour;
+}
+
+
+.constraints-container {
+    margin-top: 40px;
+}
+
+
+.constraints-text {
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 1.8rem;
+    margin: 10px 0;
+
+}
+
+.ui-container {
+    position: relative;
+    z-index: 1;
+}
+
+
+.ui-img {
+    width: 70%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.ui-button {
+    margin: 0 auto;
+    max-width: 150px;
+    background-color: $accent-colour;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid $accent-colour;
+    padding: 7px 15px;
+    font-size: 1rem;
+    position: absolute;
+    top: 63%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 8px 10px;
+    border: none;
+    border: 1px solid $accent-colour;
+    border-radius: 5px;
+}
+
+.ui-button:hover {
+    border: 1px solid $accent-colour;
+    background-color: white;
+    color: #2E536C;
+    cursor: pointer;
+}
+
+.legend-img {
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+
+
+
+
+
+
+.crazy8-img {
+    max-width: 90%;
+    margin-top: 40px;
+    background-color: $accent-colour;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+.screen-sketches-img {
+    max-width: 90%;
+    margin: 20px 0;
+    background-color: $accent-colour;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+.flow-sketches-img {
+    max-width: 90%;
+    margin: 20px 0;
+    background-color: $accent-colour;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+
+.moodboard-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.moodboard-section-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 10px;
+
+}
+
+
+.moodboard-img {
+    max-width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.moodboard-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: $accent-colour;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid $accent-colour;
+    padding: 10px 15px;
+    font-size: 1rem;
+    margin-top: 15px;
+    max-width: 160px;
+
+}
+
+.moodboard-button:hover {
+    border: 1px solid $accent-colour;
+    background-color: white;
+    color: $accent-colour;
+    cursor: pointer;
+}
+
+.colour-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 60px auto;
+    max-width: 550px;
+}
+
+
+.colour-img {
+    max-width: 30%;
+}
+
+.colour-neutral-img {
+
+    max-width: 90%;
+
+}
+
+.typography-img {
+    max-width: 90%;
+    margin: 50px auto;
+}
+
+.wordmark-img {
+    max-width: 40%;
+    margin: 40px auto;
+}
+
+.wordmark-experimentation-img {
+    max-width: 100%;
+
+}
+
+
+.evolution-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.evolution-items-container {
+    max-width: 170px;
+
+}
+
+
+.evolution-title {
+    text-align: left;
+    padding-left: 2px;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.evolution-text {
+    padding-left: 2px;
+    text-align: left;
+    font-size: 0.9rem;
+    margin-top: 0;
+
+}
+
+
+.prototype-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.evolution-screen-1 {
+    background-color: $accent-colour;
+    padding: 10PX;
+    border-radius: 5PX;
+    margin-top: 30px;
+    max-width: 150px;
+    min-width: 150px;
+    min-height: 350px;
+    max-height: 350px;
+
+}
+
+.evolution-screen-2 {
+    background-color: $accent-colour;
+    padding: 10PX;
+    margin-top: 30px;
+    border-radius: 5PX;
+    max-width: 150px;
+    min-width: 150px;
+    min-height: 400px;
+    max-height: 400px;
+
+}
+
+.evolution-screen-3 {
+    margin-top: 30px;
+    background-color: $accent-colour;
+    padding: 10PX;
+    border-radius: 5PX;
+    max-width: 150px;
+    min-width: 150px;
+    min-height: 550px;
+    max-height: 550px;
+
+}
+
+.evolution-screen-4 {
+    margin-top: 30px;
+    background-color: $accent-colour;
+    padding: 10PX;
+    border-radius: 5PX;
+    max-width: 150px;
+    min-width: 150px;
+    min-height: 400px;
+    max-height: 400px;
+
+}
+
+.evolution-screen-5 {
+    margin-top: 30px;
+    background-color: $accent-colour;
+    padding: 10PX;
+    border-radius: 5PX;
+    max-width: 150px;
+    min-width: 150px;
+    min-height: 550px;
+    max-height: 550px;
+
+}
+
+.prototype-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.prototype-small-section-container {
+    margin: 35px 0 0 35px;
+    max-width: 400px;
+    text-align: left;
+}
+
+
+.prototype-second-img {
+    max-width: 50%;
+    margin: 40px 0 0 0;
+}
+
+
+
+
+@media only screen and (min-width: 500px) {
+
+
+    .primary-button {
+        max-width: 100px;
+    }
+
+
+    .process-picture {
+        margin: 0 auto;
+        margin-top: 20px;
+        max-height: 200px;
+        max-width: 60%;
+    }
+
+
+    .demographic-picture {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    .pain-points-img {
+        max-width: 500px;
+    }
+
+
+
+    .motivations-img {
+        max-width: 380px;
+    }
+
+
+
+    .legend-img {
+        max-width: 50%;
+        margin: 20px auto;
+    }
+
+
+    .crazy8-img {
+        max-width: 500px;
+        margin: 30px auto;
+    }
+
+
+
+    .container-recall {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 900px;
+    }
+
+
+    .screen-sketches-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .flow-sketches-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .screen-sketches-img {
+        max-width: 40%;
+        margin: 20px 10px;
+        background-color: $accent-colour;
+        padding: 15px;
+        border-radius: 5px;
+
+    }
+
+    .flow-sketches-img {
+        max-width: 40%;
+        margin: 20px 10px;
+        background-color: $accent-colour;
+        padding: 15px;
+        border-radius: 5px;
+
+    }
+
+
+
+    .moodboard-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+
+    .moodboard-section-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        padding: 10px;
+
+    }
+
+
+    .moodboard-img {
+        max-width: 50%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+
+
+    .colour-img {
+        max-width: 190px;
+        margin: 0 20px;
+    }
+
+    .colour-neutral-img {
+        margin: 0 auto;
+        max-width: 550px;
+
+    }
+
+
+    .typography-img {
+        max-width: 700px;
+        margin: 50px auto;
+    }
+
+
+    .wordmark-experimentation-img {
+        max-width: 80%;
+        margin: 0 auto;
+
+    }
+
+
+    .wordmark-img {
+        max-width: 25%;
+        margin: 40px auto;
+    }
+
+
+
+    .prototype-second-img {
+        max-width: 300px;
+        margin: 40px 0 0 0;
+    }
+
+
+    .prototype-small-section-container {
+        margin: 80px 0 0 35px;
+        max-width: 400px;
+        text-align: left;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
