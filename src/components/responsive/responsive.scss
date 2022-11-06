@@ -1,70 +1,62 @@
 .responsive-container {
     display: flex;
     flex-direction: column;
-
     text-decoration: none;
     background-color: white;
     z-index: 3;
 
-}
-
-.branding-2 {
-    margin: 20px 20px 20px 0;
-    font-size: 1.2rem;
-    color: #111 !important;
-    font-weight: 600;
-    padding: 3px 0;
-    text-decoration: none;
-}
-
-.responsive-container-menu {
-    display: flex;
-    flex-direction: column;
-    margin: 30px auto;
-    list-style: none;
-    padding: 0;
-}
-
-.menu-items {
-    display: flex;
-    flex-direction: column;
-    margin: 30px auto;
-    font-size: 2rem;
-    color: #111 !important;
-    text-decoration: none;
-}
+    .close-responsive-container {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        justify-content: space-between;
+        font-size: 20px;
+        min-height: 65px;
+        background-color: white;
+        color: #111;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
 
 
-.responsive-menu-icons {
-    color: #111 !important;
-    text-decoration: none;
+        .close-responsive-menu {
+            min-width: 40px;
+            min-height: 40px;
+            padding-top: 8px;
+            color: #111;
+            margin-right: 12px;
+        }
 
-}
+        .branding-2 {
+            display:none;
+        }
+    }
 
+    .responsive-container-menu {
+        display: flex;
+        flex-direction: column;
+        margin: 30px auto;
+        list-style: none;
+        padding: 0;
+        text-align: center;
 
-.close-responsive-container {
-    
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    justify-content: space-between;
-    font-size: 20px;
-    min-height: 65px;
-    background-color: white;
-    color: #111;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 2;
-}
+        .menu-items {
+            display: flex;
+            flex-direction: column;
+            margin: 30px auto;
+            font-size: 2rem;
+            color: #111 !important;
+            text-decoration: none;
+        }
+        
+        .responsive-menu-icons {
+            color: #111 !important;
+            text-decoration: none;
+        }
 
-.close-responsive-menu {
-    min-width: 40px;
-    min-height: 40px;
-    padding-top: 8px;
+    }
 
-    color: #111;
-    margin-left: 12px;
 }

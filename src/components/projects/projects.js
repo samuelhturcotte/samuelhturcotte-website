@@ -5,8 +5,6 @@ import IntroPicture from "../project-cards/project-cards";
 function Projects() {
     return (
         <div className="container">
-
-
             <IntroPicture />
         </div>
     );

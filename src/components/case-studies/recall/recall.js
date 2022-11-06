@@ -16,27 +16,27 @@ function Recall() {
 
                     <ul className="project-description-small-container">
                         <li className="project-description-title">Project Type</li>
-                        <li>Academic</li>
+                        <li className="project-description-text">Academic</li>
                     </ul>
 
                     <ul className="project-description-small-container">
                         <li className="project-description-title">My role</li>
-                        <li>UI & UX Designer</li>
+                        <li className="project-description-text">UI & UX Designer</li>
                     </ul>
 
                     <ul className="project-description-small-container">
                         <li className="project-description-title">Timeline</li>
-                        <li>8 weeks</li>
+                        <li className="project-description-text">8 weeks</li>
                     </ul>
 
                     <ul className="project-description-small-container">
                         <li className="project-description-title">Platform</li>
-                        <li>Designed for iOS</li>
+                        <li className="project-description-text">Designed for iOS</li>
                     </ul>
 
                     <ul className="project-description-small-container">
                         <li className="project-description-title">Tools</li>
-                        <li>Figma / InVision</li>
+                        <li className="project-description-text">Figma / InVision</li>
                     </ul>
                 </div>
 
@@ -158,6 +158,7 @@ function Recall() {
                 </ul>
 
                 <h4 className="section-medium-title">Budget Limitation:</h4>
+                
                 <ul className="section-text">
                     <li>Business (it costs money to launch and maintain).</li>
                     <li>Workforce (need staff to help implement and maintain everything to keep working correctly).</li>
@@ -353,8 +354,10 @@ function Recall() {
                 <img className="colour-img" src={require("../../../assets/images/recall-pictures/branding.png")} alt="recall" />
 
             </div>
-
+            
+            <div className="neutral-img-container">
             <img className="colour-neutral-img" src={require("../../../assets/images/recall-pictures/neutral.png")} alt="recall" />
+            </div>
 
             <h3 className="section-large-title">Typography</h3>
             <p className="section-text">Montserrat has been chosen for its versatility, an asset if the app is open in different

@@ -12,100 +12,44 @@
     left: 0;
     right: 0;
     z-index: 2;
-}
+
+    @media only screen and (min-width: 500px) {
+        a {
+            margin: 0 20px 0 0;
+            color: white;
+            font-size: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        
+            &:hover {
+                color: #FACF0F !important;
+                cursor: pointer;
+            }
+        }
+
+    }
 
 
-.branding {
-    margin: 20px 0 20px 20px;
-    font-size: 1.2rem;
-    color: white !important;
-    font-weight: 600;
-    padding: 3px 0;
-    text-decoration: none;
-}
+    .logo {
+        height: 18px;
+        margin-top: 15px;
+        margin-left: 10px;
+        &:hover{
+            cursor: pointer;
+        }
 
+        @media only screen and (min-width: 500px) {
+            margin-top: 22px;
+            margin-left: 30px;
+        }
 
+    }
 
-.nav-items-container {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    margin: 20px 20px 20px 0;
-
-
-}
-
-
-.nav-items a {
-    margin: 0 20px 0 0;
-    color: white;
-    font-size: 1rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-
-
-
-}
-
-.nav-items:hover a:hover {
-    color: #FACF0F !important;
-    cursor: pointer;
-
-
-
-}
-
-
-
-
-
-.nav-icons a {
-    margin-right: 20px;
-    color: white;
-    font-size: 1rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-
-
-}
-
-.nav-icons:hover {
-    color: #FACF0F;
-    cursor: pointer;
-    text-decoration: underline;
-    text-underline-offset: 10px;
-
-
-}
-
-
-
-svg {
-    margin-top: 4px !important;
-}
-
-svg:hover {
-    color: #FACF0F;
-
-}
-
-.menu-link {
-    display: none;
-}
-
-.menu {
-    display: none;
-}
-
-
-
-@media only screen and (max-width: 600px) {
 
 
     .branding {
-        margin: 20px 20px 20px 0;
+        margin: 20px 20px 20px 20px;
         font-size: 1.2rem;
         color: white !important;
         font-weight: 600;
@@ -113,42 +57,40 @@ svg:hover {
         text-decoration: none;
     }
 
-
-    .nav-main-container {
-
-        flex-direction: row-reverse;
-
-    }
-
     .nav-items-container {
         display: none;
 
+        @media only screen and (min-width: 500px) {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            margin: 20px 20px 20px 0;
+        }
     }
 
-    .nav-main-container {
-        max-width: 600px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-
-
-    }
 
     .menu-link {
         display: inline;
+        height: 50px;
+
+        @media only screen and (min-width: 500px) {
+            display: none;
+        }
+    
+        .menu {
+            display: inline;
+            margin-top: 12px !important;
+            margin-right: 20px;
+            border: 1px solid white;
+            border-radius: 2px;
+            padding: 2px;
+            color: white;
+
+            @media only screen and (min-width: 500px) {
+                display: none;
+            }
+        }
     }
-
-
-
-    .menu {
-        display: inline;
-        margin-top: 20px !important;
-        margin-left: 20px;
-        border: 1px solid white;
-        border-radius: 2px;
-        padding: 2px;
-        color: white;
-    }
-
 }
+
+

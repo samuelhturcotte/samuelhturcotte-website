@@ -9,93 +9,88 @@ form {
     right: 0;
     text-align: left;
     padding: 20px 40px;
+
+    .form-title {
+        text-align: center;
+        font-size: 2.6rem;
+        font-weight: 600;
+        color: #606060;
+        margin: 20px auto;
+    }
+
+    .section-container {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+
+
+        .section-label {
+            margin: 10px 0;
+            font-size: 1.1rem;
+            color: #050505;
+        }
+        
+        .section-input {
+            border: 1px solid #ebebeb;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: white;
+
+            &:focus {
+                border: 2px solid #673496 !important;
+                padding: 10px;
+            }
+        }
+        
+        .section-message {
+            padding: 10px;
+            border: 1px solid #ebebeb;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+
+       
+
+    }
+
+    .contact-button {
+        margin: 20px auto;
+        background-color: #111;
+        color: white;
+        padding: 6px 15px;
+        border: none;
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: #facf0f;
+            color: #111;
+            cursor: pointer;
+        }
+    }
+
 }
-
-.form-title {
-    text-align: center;
-    font-size: 2.6rem;
-    font-weight: 600;
-    color: #606060;
-    margin: 20px auto;
-}
-
-.section-container {
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0;
-
-}
-
-.section-label {
-    margin: 10px 0;
-    font-size: 1.1rem;
-    color: #050505;
-}
-
-.section-input {
-    border: 1px solid #ebebeb;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: white;
-}
-
-.section-input:focus {
-    border: 2px solid #673496 !important;
-    padding: 10px;
-}
-
-
-
-.section-message {
-    padding: 10px;
-    border: 1px solid #ebebeb;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5px;
-
-    background-color: white;
-}
-
-
-.contact-button {
-    margin: 20px auto;
-    background-color: #111;
-    color: white;
-    padding: 6px 15px;
-    border: none;
-    font-size: 1rem;
-    font-weight: 600;
-    border-radius: 5px;
-
-
-}
-
-
-.contact-button:hover {
-    background-color: #facf0f;
-    color: #111;
-    cursor: pointer;
-}
-
 
 
 
 @media only screen and (max-width: 280px) {
-    .form-title {
-        font-size: 1.8rem;
-        margin: 20px auto;
-
-    }
 
 
     form {
         top: 70px;
 
+        .form-title {
+            font-size: 1.8rem;
+            margin: 20px auto;
+        
+        }
+
     }
 
 }
-
-
-
 
 
 
@@ -106,21 +101,15 @@ form {
         border-radius: 5px;
         top: 120px;
 
+
+        .form-title {
+            font-size: 2.6rem;
+            margin: 10px auto;
+        }
+
+        .contact-button {
+            min-width: 400px;
+        }
     }
-
-    .form-title {
-        font-size: 2.6rem;
-        margin: 10px auto;
-
-    }
-
-
-
-    .contact-button {
-
-        min-width: 400px;
-
-    }
-
 
 }

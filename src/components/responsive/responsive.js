@@ -15,13 +15,9 @@ function Responsive() {
 
             <div className="close-responsive-container">
                 <Link to="/"><X className="close-responsive-menu" /></Link>
-
                 <Link className="branding-2" to="/">Samuel Turcotte</Link>
-
             </div>
-
-
-
+            
             <Link className="branding" to="/">Samuel Turcotte</Link>
 
             <ul className="responsive-container-menu">
