@@ -20,8 +20,8 @@ export class Navigation extends React.Component {
                 
 
                     <ul className="nav-items-container">
-                        <li className="nav-items"><Link to="/about">About</Link></li>
                         <li className="nav-items"><Link to="/">Projects</Link></li>
+                        <li className="nav-items"><Link to="/about">About</Link></li>
                         <li className="nav-items"><Link to="/contact">Contact</Link></li>
                         <li className="nav-icons"><a href="https://github.com/samuelhturcotte" target="_blank" rel="noreferrer" ><Github /></a></li>
                         <li className="nav-icons"><a href="https://linkedin.com/in/samuelhturcotte" target="_blank" rel="noreferrer" ><Linkedin /></a></li>
