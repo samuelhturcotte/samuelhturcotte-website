@@ -48,13 +48,14 @@
     
         &:hover,
         &:focus,
-        &:active {
-            transform: scale(1.1);
-            border: none;
-            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    
+        &:active { 
+
+            @media only screen and (min-width: 500px) {
+                transform: scale(1.1);
+                border: none;
+                box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+            }
         }
-    
     }
 
 
