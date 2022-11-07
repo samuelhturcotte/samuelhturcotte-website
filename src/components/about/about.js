@@ -5,19 +5,60 @@ import React from "react";
 function About() {
     return (
         <div className="container2">
+            
+            <div className="about-intro-section">
+                <img className="hellopic" src={require("../../assets/images/main-pictures/hello-dark-grey.png")} alt="recall" />
 
-            <img className="hellopic" src={require("../../assets/images/main-pictures/hello-dark-grey.png")} alt="recall" />
+                <p className="about-text">
+                    I am Samuel Turcotte, a detail-oriented UI/UX Designer and Full-Stack Developer. <br /><br />
 
-            <p className="about-text">
-                My name is Samuel Turcotte, a detail-oriented junior UI/UX Designer who is a recent BrainStation UX Design graduate with a recreation management and banking industry background passionate about design, psychology, accessibility, and technology. <br /><br />
+                    As a hard-of-hearing individual, I strive to develop accessible and inclusive products to maximize the chances of everyone properly using them regardless of ability, context, or situation, which is a win for users and companies.<br /><br />
 
-                As a hard-of-hearing individual, I strive to design accessible and inclusive products to maximize the chances of everyone properly using them regardless of ability, context, or situation, which is a win for users and companies.<br /><br />
+                    I am very passionate about the tech industry and cannot wait to continue growing my skill set and career over the coming years.
+                </p>
+            </div>
+          
 
-                Learning UX Design at BrainStation was truly amazing because I had the chance to learn about the entire design process, the importance of developing human-centred products, and gaining experience using relevant industry tools such as Figma. I also had the chance to learn from and collaborate with people already in the industry, getting me ready for the job market.<br /><br />
 
-                I am so excited to get started with my journey as a UI/UX Designer, and I cannot wait to continue growing my skill set and career over the coming years.
-            </p>
 
+            <div>
+                <h3 className="skill-section-title">Technical Skills</h3>
+                <ul className="skill-point-container">
+                    <li className="skill-point">HTML</li>
+                    <li className="skill-point">CSS</li>
+                    <li className="skill-point">SASS</li>
+                    <li className="skill-point">React</li>
+                    <li className="skill-point">Git</li>
+                    <li className="skill-point">TypeScript</li>
+                    <li className="skill-point">Javascript</li>
+                    <li className="skill-point">Nest JS</li>
+                    <li className="skill-point">Node JS</li>
+                    <li className="skill-point">Responsive Design</li>
+                    <li className="skill-point">Bootstrap</li>
+                </ul>
+
+                <h3 className="skill-section-title">Design Skills</h3>
+                <ul className="skill-point-container">
+                    <li className="skill-point">Figma</li>
+                    <li className="skill-point">InVision</li>
+                    <li className="skill-point">Sketch</li>
+                    <li className="skill-point">Pop App</li>
+                    <li className="skill-point">Zeplin</li>
+                    <li className="skill-point">Adobe XD</li>
+                    <li className="skill-point">Miro</li>
+                    <li className="skill-point">Canva</li>
+                    <li className="skill-point">UX Research</li>
+                    <li className="skill-point">Prototyping</li>
+                    <li className="skill-point">User Interface</li>
+                    <li className="skill-point">User Experience</li>
+                    <li className="skill-point">User-Centered Design</li>
+                    <li className="skill-point">Wireframing</li>
+                    <li className="skill-point">Information Architecture</li>
+                    <li className="skill-point">Usability Testing</li>
+                    <li className="skill-point">Web Content Accessibility Guidelines</li>
+                </ul>
+
+            </div>
 
         </div>
     );
@@ -27,15 +68,3 @@ export default About;
 
 
 
-/*<h2>My Skills</h2>
-
-          <h2>Web Development</h2>
-          <p>HTML, CSS, SASS, React, Git, TypeScript, Javascript</p>
-
-
-          <h2>UI/UX</h2>
-          <p>Figma, InVision, Sketch, POP App,  Zeplin,
-               Adobe XD, Miro, Canva, UX Research, Prototyping,  
-                Agile, Design Sprints, User Interface, User Experience,
-                User-Centered Design, Wireframing, Information Architecture, 
-                Usability Testing,  Web Content Accessibility Guidelines</p>*/

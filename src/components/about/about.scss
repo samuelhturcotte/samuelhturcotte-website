@@ -1,53 +1,88 @@
-.about-text {
-    text-align: left;
-    margin: 20px auto;
-    font-size: 1.25rem;
-    line-height: 1.8rem;
-    padding: 8px;
-    margin-top: 5px;
-
-
-}
-
-.hellopic {
-    display: flex;
-    justify-content: flex-start;
-    max-width: 350px;
-    max-height: 150px;
-
-}
 
 .container2 {
-    margin-top: 80px;
-}
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    padding: 0 10px;
+    margin-bottom: 20px;
 
-@media only screen and (max-width: 280px) {
+    @media only screen and (min-width: 500px) {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 100px auto;
+        padding: 0 60px;
+    }
+    
 
-    .hellopic {
+    .about-intro-section {
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
 
-        max-width: 300px;
-        max-height: 100px;
-        margin-left: 4px;
+        @media only screen and (min-width: 500px) {
+            margin-right: 50px;
+        }
+       
 
+        .hellopic {
+            display: flex;
+            justify-content: flex-start;
+            max-width: 230px;
+
+            @media only screen and (min-width: 500px) {
+                max-width: 300px;
+             
+            }
+        }
+
+        .about-text {
+            text-align: left;
+            margin: 20px auto;
+            font-size: 1.3rem;
+            line-height: 1.8rem;
+            padding: 8px;
+            margin-top: 5px;
+        }
+    }
+    
+
+    .skill-section-title {
+        font-size: 1.5rem;
+        text-align: left;
+        margin: 20px 0 10px 10px;
+        font-weight: 600;
     }
 
 
 
+    .skill-point-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
 
+        @media only screen and (min-width: 500px) {
+            max-width: 2000px;
+        }
+
+
+        .skill-point {
+            margin: 10px;
+            color: #111;
+            background-color: #F0F0F0;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+    } 
 }
 
 
 
 
+   
 
 
-@media only screen and (min-width: 500px) {
-
-    .container2 {
-        max-width: 1000px;
-        margin: 80px auto;
-    }
-
-
-
-}
