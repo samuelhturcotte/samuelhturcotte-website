@@ -9,7 +9,10 @@ function BasicExample() {
         <div>
 
 
-            <Form name="contact" data-netlify="true">
+            <Form name="contact" 
+                action="https://formspree.io/f/xbjqzgya"
+                method="POST"
+            >
 
                 <h2 className="form-title">Let's Connect</h2>
 
