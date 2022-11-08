@@ -18,18 +18,18 @@ function BasicExample() {
 
                 <Form.Group className="section-container" controlId="formBasicEmail" >
                     <Form.Label className="section-label" >Name</Form.Label>
-                    <Form.Control className="section-input" type="name" placeholder="Enter your name" />
+                    <Form.Control className="section-input" type="name" name="name" placeholder="Enter your name" />
 
                 </Form.Group>
 
                 <Form.Group className="section-container" controlId="formBasicPassword">
                     <Form.Label className="section-label">Email</Form.Label>
-                    <Form.Control className="section-input" type="email" placeholder="Enter your email" />
+                    <Form.Control className="section-input" type="email" name="email" placeholder="Enter your email" />
                 </Form.Group>
 
                 <Form.Group className="section-container" controlId="exampleForm.ControlTextarea1">
                     <Form.Label className="section-label">Message</Form.Label>
-                    <Form.Control className="section-message" placeholder="Write your message" as="textarea" rows={4} />
+                    <Form.Control className="section-message" name="message" placeholder="Write your message" as="textarea" rows={4} />
                 </Form.Group>
 
 
