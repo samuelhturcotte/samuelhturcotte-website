@@ -35,6 +35,9 @@ function About() {
                     <li className="skill-point">Node JS</li>
                     <li className="skill-point">Responsive Design</li>
                     <li className="skill-point">Bootstrap</li>
+                    <li className="skill-point">Contentful</li>
+                    <li className="skill-point">Gatsby JS</li>
+                    <li className="skill-point">CMS</li>
                 </ul>
 
                 <h3 className="skill-section-title">Design Skills</h3>
@@ -42,8 +45,6 @@ function About() {
                     <li className="skill-point">Figma</li>
                     <li className="skill-point">InVision</li>
                     <li className="skill-point">Sketch</li>
-                    <li className="skill-point">Pop App</li>
-                    <li className="skill-point">Zeplin</li>
                     <li className="skill-point">Adobe XD</li>
                     <li className="skill-point">Miro</li>
                     <li className="skill-point">Canva</li>
