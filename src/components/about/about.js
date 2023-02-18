@@ -10,7 +10,7 @@ function About() {
                 <img className="hellopic" src={require("../../assets/images/main-pictures/hello-dark-grey.png")} alt="recall" />
 
                 <p className="about-text">
-                    I am Samuel Turcotte, a detail-oriented UI/UX Designer and Full-Stack Developer. <br /><br />
+                    I am Samuel Turcotte, a detail-oriented Front-End Web Developer.<br/><br/>
 
                     As a hard-of-hearing individual, I strive to develop accessible and inclusive products to maximize the chances of everyone properly using them regardless of ability, context, or situation, which is a win for users and companies.<br /><br />
 
