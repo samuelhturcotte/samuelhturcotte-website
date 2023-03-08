@@ -13,7 +13,7 @@
     right: 0;
     z-index: 2;
 
-    @media only screen and (min-width: 500px) {
+    @media only screen and (min-width: 600px) {
         a {
             margin: 0 20px 0 0;
             color: white;
@@ -39,7 +39,7 @@
             cursor: pointer;
         }
 
-        @media only screen and (min-width: 500px) {
+        @media only screen and (min-width: 600px) {
             margin-top: 22px;
             margin-left: 30px;
         }
@@ -60,7 +60,7 @@
     .nav-items-container {
         display: none;
 
-        @media only screen and (min-width: 500px) {
+        @media only screen and (min-width: 600px) {
             display: flex;
             flex-direction: row;
             list-style: none;
@@ -73,7 +73,7 @@
         display: inline;
         height: 50px;
 
-        @media only screen and (min-width: 500px) {
+        @media only screen and (min-width: 600px) {
             display: none;
         }
     
@@ -86,7 +86,7 @@
             padding: 2px;
             color: white;
 
-            @media only screen and (min-width: 500px) {
+            @media only screen and (min-width: 600px) {
                 display: none;
             }
         }
