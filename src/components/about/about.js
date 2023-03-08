@@ -64,7 +64,7 @@ function About() {
                     <li class="description-item">Adapted websites to match changing user preferences and client demands with regular updates.</li>
                     <li class="description-item">Worked with various teams and stakeholders to create and maintain digital experiences for multiple company products.</li>
                     <li class="description-item">Estimated project scope and participated in design discussions and code reviews.</li>
-                    <li class="description-item">Engaged in quality assurance testing with emphasis on troubleshooting production issues.</li>
+                    <li class="description-item">Engaged in quality assurance testing with an emphasis on troubleshooting production issues.</li>
                     <li class="description-item">Tools: React, SASS, HTML, Figma, Git.</li>
                     
                 </ul>
