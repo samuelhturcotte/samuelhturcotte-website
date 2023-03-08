@@ -60,12 +60,13 @@ function About() {
                 <h4 className="small-title">Front-End Web Developer | President's Choice Financial</h4>
                 <p class="time">May 2022 - Present, Toronto, ON</p>
                 <ul class="description">
-                    <li class="description-item">Bug fix, QA, and problem-solving.</li>
                     <li class="description-item">Implement websites, landing pages, and applications from concept through deployment, with a responsive, mobile-first approach.</li>
-                    <li class="description-item">Perform code reviews.</li>
-                    <li class="description-item">Maintain, optimize, troubleshoot, and improve company websites.</li>
-                    <li class="description-item">Work closely with other team members on the development team.</li>
+                    <li class="description-item">Adapted websites to match changing user preferences and client demands with regular updates.</li>
+                    <li class="description-item">Worked with various teams and stakeholders to create and maintain digital experiences for multiple company products.</li>
+                    <li class="description-item">Estimated project scope and participated in design discussions and code reviews.</li>
+                    <li class="description-item">Engaged in quality assurance testing with emphasis on troubleshooting production issues.</li>
                     <li class="description-item">Tools: React, SASS, HTML, Figma, Git.</li>
+                    
                 </ul>
             </div>
 
