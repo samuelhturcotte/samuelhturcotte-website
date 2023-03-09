@@ -10,10 +10,24 @@ function About() {
             <div className="about-intro-section">  
                 <img className="hellopic" src={require("../../assets/images/main-pictures/Group 47.png")} alt="recall" />
                 <p className="about-text">
-                My name Samuel Turcotte, a detail-oriented Front-End Web Developer.<br/><br/>
-                As a hard-of-hearing individual, I strive to develop accessible and inclusive products to maximize the chances of everyone properly using them regardless of ability, context, or situation, which is a win for users and companies.<br /><br />
-                I am very passionate about the tech industry and cannot wait to continue growing my skill set and career over the coming years.
+                    My name is Samuel Turcotte, a creative and detail-oriented Front-End Web Developer with a UX Design education background.<br/><br/>
+
+                    As a hard of hearing individual, I’ve had to overcome many different challenges throughout my life. It has made me someone that can adapt to all sorts of environments and find creative solutions to any problems I can face both in life as well as when it comes to web development. <br /><br />
+
+                    Getting a UX education gave me a good understanding of the full process which helps me see the bigger picture and bridge the gap between designers and developers. It has also given me a sharp eye for detail that helps me build aesthetic, usable, and well-designed software. <br /><br />
+
+                    Over time I discovered a love for turning my design into fully functioning software which made me want to learn coding which I can now consider my passion. I am a proud self-taught developer with professional experience, and I am constantly striving to learn more and always get better. <br /><br />
+
+                    My life experiences, education and tech passion have truly helped me become an asset in any project I am work on and cannot wait to continue developing my skillset and career over the next coming years.
                 </p>
+
+                <div class="education-container" >
+                    <h3 className="other-section-title">Education</h3>
+                    <h4 className="small-title">Codecademy | Certificate, Front-End Engineer Career Path</h4>
+                    <p class="time">2022, Toronto, ON</p>
+                    <h4 className="small-title">BrainStation | Diploma, User Experience Design</h4>
+                    <p class="time">2021 - 2022, Toronto, ON</p>
+                </div>
             </div>
             
             <div container="skill-main-container" >
@@ -53,30 +67,26 @@ function About() {
                         <li className="skill-point">Usability Testing</li>
                         <li className="skill-point">Web Content Accessibility Guidelines</li>
                     </ul>
+
+                <div class="experience-container">
+                    <h3 className="section-title">Experience</h3>
+                    <h4 className="small-title">Front-End Web Developer | President's Choice Financial</h4>
+                    <p class="time">May 2022 - Present, Toronto, ON</p>
+                    <ul class="description">
+                        <li class="description-item">Implement websites, landing pages, and applications from concept through deployment, with a responsive, mobile-first approach.</li>
+                        <li class="description-item">Adapted websites to match changing user preferences and client demands with regular updates.</li>
+                        <li class="description-item">Worked with various teams and stakeholders to create and maintain digital experiences for multiple company products.</li>
+                        <li class="description-item">Estimated project scope and participated in design discussions and code reviews.</li>
+                        <li class="description-item">Engaged in quality assurance testing with an emphasis on troubleshooting production issues.</li>
+                        <li class="description-item">Tools: React, SASS, HTML, Figma, Git.</li>
+
+                    </ul>
+                </div>
             </div>
                
-            <div class="experience-container">
-                <h3 className="section-title">Experience</h3>
-                <h4 className="small-title">Front-End Web Developer | President's Choice Financial</h4>
-                <p class="time">May 2022 - Present, Toronto, ON</p>
-                <ul class="description">
-                    <li class="description-item">Implement websites, landing pages, and applications from concept through deployment, with a responsive, mobile-first approach.</li>
-                    <li class="description-item">Adapted websites to match changing user preferences and client demands with regular updates.</li>
-                    <li class="description-item">Worked with various teams and stakeholders to create and maintain digital experiences for multiple company products.</li>
-                    <li class="description-item">Estimated project scope and participated in design discussions and code reviews.</li>
-                    <li class="description-item">Engaged in quality assurance testing with an emphasis on troubleshooting production issues.</li>
-                    <li class="description-item">Tools: React, SASS, HTML, Figma, Git.</li>
-                    
-                </ul>
-            </div>
+           
 
-            <div class="education-container" >
-                <h3 className="other-section-title">Education</h3>
-                <h4 className="small-title">Codecademy | Certificate, Front-End Engineer Career Path</h4>
-                <p class="time">2022, Toronto, ON</p>
-                <h4 className="small-title">BrainStation | Diploma, User Experience Design</h4>
-                <p class="time">2021 - 2022, Toronto, ON</p>
-            </div>
+          
 
         </div>
 

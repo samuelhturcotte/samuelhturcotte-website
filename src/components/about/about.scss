@@ -75,11 +75,16 @@
     
     .skill-section-title {
         @include title-list;
+
+        @media only screen and (max-width: 1331px) {
+                margin: 30px 0 10px 9px;
+            }
+        
     }
 
     .other-skill-section-title {
         @include title-list;
-        margin: 18px 0 10px 9px;
+        margin: 30px 0 10px 9px;
     }
 
     .skill-point-container {
@@ -105,7 +110,7 @@
     } 
 
     .experience-container {
-        margin: 10px 0 0 0;
+        margin: 30px 0 0 0;
         padding-left: 9px;
 
         @media only screen and (min-width: 500px) {
@@ -130,16 +135,16 @@
     }
 
     .education-container {
-        margin: 10px 0 0 0;
+        margin: 10px auto;
         padding-left: 10px;
         @media only screen and (min-width: 500px) {
             max-width: 610px;
-            margin-right: 112px;
+            
         }
 
         .other-section-title {
             @include title-list;
-            margin: 20px 0 0 0,
+            margin: 35px 0 0 0,
         }
 
         @include primary-description;
