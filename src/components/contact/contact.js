@@ -3,23 +3,15 @@ import './contact.scss';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
-function BasicExample() {
+function contactForm() {
     return (
-
         <div>
-
-
-            <Form name="contact" 
-                action="https://formspree.io/f/xbjqzgya"
-                method="POST"
-            >
-
+            <Form name="contact" action="https://formspree.io/f/xbjqzgya" method="POST">
                 <h2 className="form-title">Let's Connect</h2>
 
                 <Form.Group className="section-container" controlId="formBasicEmail">
                     <Form.Label className="section-label" for="name">Name</Form.Label>
                     <Form.Control className="section-input" id="name" type="text" name="name" placeholder="Enter your name" required/>
-
                 </Form.Group>
 
                 <Form.Group className="section-container" controlId="formBasicPassword">
@@ -32,22 +24,12 @@ function BasicExample() {
                     <Form.Control className="section-message" id="message" name="message" placeholder="Write your message" as="textarea" rows={4} required />
                 </Form.Group>
 
-
                 <Button className="contact-button" variant="primary" name="submit" type="submit">
                     Submit
                 </Button>
             </Form>
-
-
-
-
-
-
-
-
         </div>
-
     );
 }
 
-export default BasicExample;
+export default contactForm;

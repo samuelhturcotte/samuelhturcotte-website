@@ -65,21 +65,18 @@
             max-width: 100%;
 
             @media only screen and (min-width: 500px) {
-                    padding: 0 0 0 10px;
-                    max-width: none;
+                padding: 0 0 0 10px;
+                max-width: none;
             }
         }
     }
 
- 
-    
     .skill-section-title {
         @include title-list;
 
         @media only screen and (max-width: 1331px) {
                 margin: 30px 0 10px 9px;
             }
-        
     }
 
     .other-skill-section-title {
@@ -92,8 +89,8 @@
         flex-wrap: wrap;
         list-style: none;
         padding: 0;
-        margin: 0;
-                    
+        margin: 0;       
+
         @media only screen and (min-width: 500px) {
             max-width: 650px;
         }
@@ -113,6 +110,8 @@
         margin: 30px 0 0 0;
         padding-left: 9px;
 
+        @include primary-description;
+
         @media only screen and (min-width: 500px) {
             max-width: 610px;
             margin-right: 33px;
@@ -122,7 +121,6 @@
             @include title-list;
             margin: 10px 0 0 0,
         }
-        @include primary-description;
 
         .description {
             margin-top: 15px;
@@ -137,6 +135,8 @@
     .education-container {
         margin: 10px auto;
         padding-left: 10px;
+        @include primary-description;
+
         @media only screen and (min-width: 500px) {
             max-width: 610px;
             
@@ -146,8 +146,6 @@
             @include title-list;
             margin: 35px 0 0 0,
         }
-
-        @include primary-description;
     }
 
 }

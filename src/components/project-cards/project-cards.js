@@ -2,13 +2,11 @@ import React from "react";
 import './project-cards.scss';
 import { Link } from "react-router-dom";
 import { useState } from 'react';
-
 import Card from 'react-bootstrap/Card';
 
 function IntroPicture() {
     const [loaded, setLoaded] = useState(false);
     return (
-
         <div className="projects-container">
             <Link to="/case-studies/recall">
                 <Card className="hvr-grow" style={{ width: '18rem' }}>

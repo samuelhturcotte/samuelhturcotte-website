@@ -6,19 +6,11 @@ import { Github } from 'react-bootstrap-icons';
 import { List } from 'react-bootstrap-icons';
 import LogoWhite from "../header/logo-white.svg";
 
-
-
-
-
 export class Navigation extends React.Component {
     render() {
         return (
             <nav class="nav-main-container">
                 <Link  to="/"><img className="logo" src={LogoWhite} alt="Your SVG" /></Link>
-       
-            
-                
-
                     <ul className="nav-items-container">
                         <li className="nav-items"><Link to="/">About</Link></li>
                         <li className="nav-items"><Link to="projects">Ux Projects</Link></li>
@@ -26,7 +18,6 @@ export class Navigation extends React.Component {
                         <li className="nav-icons"><a href="https://github.com/samuelhturcotte" target="_blank" rel="noreferrer" ><Github /></a></li>
                         <li className="nav-icons"><a href="https://linkedin.com/in/samuelhturcotte" target="_blank" rel="noreferrer" ><Linkedin /></a></li>
                     </ul>
-
                 <Link className="menu-link" to="/responsive"><List className="menu" /></Link>
             </nav>
         );

@@ -1,24 +1,27 @@
 import './about.scss';
 import React from "react";
 
-
 function About() {
     return (
-        
         <div className="about-container">
-
             <div className="about-intro-section">  
                 <img className="hellopic" src={require("../../assets/images/main-pictures/Group 47.png")} alt="recall" />
                 <p className="about-text">
-                    My name is Samuel Turcotte, a creative and detail-oriented Front-End Web Developer with a UX Design education background.<br/><br/>
-
-                    As a hard of hearing individual, I’ve had to overcome many different challenges throughout my life. It has made me someone that can adapt to all sorts of environments and find creative solutions to any problems I can face both in life as well as when it comes to web development. <br /><br />
-
-                    Getting a UX education gave me a good understanding of the full process which helps me see the bigger picture and bridge the gap between designers and developers. It has also given me a sharp eye for detail that helps me build aesthetic, usable, and well-designed software. <br /><br />
-
-                    Over time I discovered a love for turning my design into fully functioning software which made me want to learn coding which I can now consider my passion. I am a proud self-taught developer with professional experience, and I am constantly striving to learn more and always get better. <br /><br />
-
-                    My life experiences, education and tech passion have truly helped me become an asset in any project I am work on and cannot wait to continue developing my skillset and career over the next coming years.
+                    My name is Samuel Turcotte, a creative and detail-oriented Front-End 
+                    Web Developer with a UX Design education background.<br/><br/>
+                    As a hard of hearing individual, I’ve had to overcome many different 
+                    challenges throughout my life. It has made me someone that can adapt 
+                    to all sorts of environments and find creative solutions to any problems
+                    I can face both in life as well as when it comes to web development. <br /><br />
+                    Getting a UX education gave me a good understanding of the full process which helps 
+                    me see the bigger picture and bridge the gap between designers and developers. It has
+                    also given me a sharp eye for detail that helps me build aesthetic, usable, and well-designed 
+                    software. <br /><br />
+                    Over time I discovered a love for turning my design into fully functioning software which made
+                    me want to learn coding which I can now consider my passion. I am a proud self-taught developer
+                    with professional experience, and I am constantly striving to learn more and always get better.<br /><br />
+                    My life experiences, education and tech passion have truly helped me become an asset in any project
+                    I am work on and cannot wait to continue developing my skillset and career over the next coming years.
                 </p>
 
                 <div class="education-container" >
@@ -79,17 +82,10 @@ function About() {
                         <li class="description-item">Estimated project scope and participated in design discussions and code reviews.</li>
                         <li class="description-item">Engaged in quality assurance testing with an emphasis on troubleshooting production issues.</li>
                         <li class="description-item">Tools: React, SASS, HTML, Figma, Git.</li>
-
                     </ul>
                 </div>
             </div>
-               
-           
-
-          
-
         </div>
-
     );
 }
 
