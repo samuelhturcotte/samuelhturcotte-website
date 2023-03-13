@@ -13,10 +13,12 @@
     color: white;
     font-size: 0.8rem;
     font-weight: 500;
-    z-index: 5;
+    z-index: 9;
+
 
         .nav-items-container {
             display: none;
+           
 
             @media only screen and (min-width: 769px) {
                 display: inline-block;
@@ -117,6 +119,7 @@
    
         .menu-link {
             display: inline;
+    
              
         
             @media only screen and (min-width: 769px) {
@@ -131,6 +134,7 @@
                 border-radius: 2px;
                 padding: 2px;
                 color: white;
+       
         
                 @media only screen and (min-width: 769px) {
                     display: none;
