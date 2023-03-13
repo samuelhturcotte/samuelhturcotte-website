@@ -11,13 +11,14 @@ export class Navigation extends React.Component {
         return (
             <nav class="nav-main-container">
                 <Link  to="/"><img className="logo" src={LogoWhite} alt="Your SVG" /></Link>
-                    <ul className="nav-items-container">
-                        <li className="nav-items"><Link to="/">About</Link></li>
-                        <li className="nav-items"><Link to="projects">Ux Projects</Link></li>
-                        <li className="nav-items"><Link to="/contact">Contact</Link></li>
-                        <li className="nav-icons"><a href="https://github.com/samuelhturcotte" target="_blank" rel="noreferrer" ><Github /></a></li>
-                        <li className="nav-icons"><a href="https://linkedin.com/in/samuelhturcotte" target="_blank" rel="noreferrer" ><Linkedin /></a></li>
-                    </ul>
+                    <div className="nav-items-container">
+                        <Link className="nav-items" to="/">About</Link>
+                        <Link className="nav-items"  to="projects">Projects</Link>
+                        <Link className="nav-items" to="/contact">Contact</Link>
+                        <a className="nav-items" href="https://github.com/samuelhturcotte" target="_blank" rel="noreferrer" ><Github /></a>
+                        <a className="nav-items" href="https://linkedin.com/in/samuelhturcotte" target="_blank" rel="noreferrer" ><Linkedin /></a>
+                        <div class="dot"></div>
+                    </div>
                 <Link className="menu-link" to="/responsive"><List className="menu" /></Link>
             </nav>
         );

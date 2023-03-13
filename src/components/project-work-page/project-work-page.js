@@ -1,12 +1,12 @@
-import './projects.scss';
+import './project-work-page.scss';
 import React from "react";
-import IntroPicture from "../project-cards/project-cards";
+import Recall from '../project-work-cards/recall';
 
 function Projects() {
     return (
         <div className="container">
-            <IntroPicture />
-        </div>
+                <Recall />
+        </div> 
     );
 }
 
