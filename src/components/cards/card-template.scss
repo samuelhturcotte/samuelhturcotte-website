@@ -1,0 +1,87 @@
+.card-container {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    margin: 20px;
+    border-radius: 5px;
+    border: none;
+    min-width: 220px;
+    max-width: 220px;
+    min-height: 230px;
+    max-height: 230px;
+    
+    @media only screen and (min-width: 769px) {
+        margin-top: 110px;
+    
+        &:hover,
+        &:focus,
+        &:active {
+            transform: scale(1.1);
+
+            .projects-title-responsive {
+                color: rgb(0, 58, 97)
+            }
+        }
+    }
+
+
+    .bold-text{
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+    
+    .projects-lesswaste-img {
+        min-width: 130px;
+        max-width: 130px;
+        min-height: 125px;
+        max-height: 125px;
+        margin: 0 auto;
+        background-image: url('../../assets/images/main-pictures/lesswastepic.png');
+        background-size: cover;
+        background-position: 59%;
+        border-radius: 100px;
+    }
+    
+    .projects-recall-img {
+        min-width: 130px;
+        max-width: 130px;
+        min-height: 125px;
+        max-height: 125px;
+        margin: 0 auto;
+        background-image: url('../../assets/images/main-pictures/recallpic.png');
+        background-size: cover;
+        background-position: 50%;
+        border-radius: 100px;
+    }
+    
+    .projects-title-responsive {
+        position: absolute;
+        top: 128px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.5rem;
+        color: #003a61;
+    }
+    
+    .projects-description-responsive {
+        position: absolute;
+        top: 180px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 0;
+        font-weight: 300;
+        font-size: 1rem;
+        color: #111;
+    }
+}
+
+
+

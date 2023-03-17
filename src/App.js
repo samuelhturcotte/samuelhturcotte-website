@@ -10,6 +10,7 @@ import About from './components/about/about';
 import Projects from './components/project-work-page/project-work-page';
 import Contact from './components/contact/contact';
 import Recall from './components/case-studies/recall/recall';
+import LessWaste from './components/case-studies/less-waste/less-waste';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/case-studies/recall" element={<Recall />} />
+          <Route path="/case-studies/less-waste" element={<LessWaste />} />
           <Route path="/responsive" element={<Responsive />} />
         </Routes>
       </main>
