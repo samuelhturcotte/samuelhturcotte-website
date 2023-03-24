@@ -1,8 +1,8 @@
 @mixin title-list {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: left;
-    margin: 27px 0 10px 9px;
-    font-weight: 600;
+    margin: 22px 0;
+    font-weight: 700;
     color: #003A61;
 }
 
@@ -23,84 +23,61 @@
 }
 
 .hellopic {
-    position: relative;
-    left: 11px;
-    max-width: 210px;
+    max-width: 250px;
+    margin: 26px 0 5px 0;
 }
 
 .about-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content:center;
-    margin: 90px 15px;
+    justify-content: space-evenly;
+    margin: 82px 0;
+    padding: 10px 40px;
     line-height: 1.6rem;
 
-    @media only screen and (min-width: 500px) {
-            padding: 0;
-    }
-
     .about-intro-section {
-        @media only screen and (min-width: 500px) {
+        padding-left: 15px;
+       
+        @media only screen and (min-width: 769px) {
             max-width: 600px;
-            margin-right: 50px;
-           
         }
 
         .hellopic {
-            @media only screen and (min-width: 450px) {
-                max-width: 390px;
-            }
+       
+           
 
             @media only screen and (min-width: 769px) {
-                max-width: 350px;
-                margin: 0;
+                max-width: 300px;
             }
         }
 
         .about-text {
             text-align: left;
             font-size: 1.2rem;
-            padding: 0 5px 0 10px;
-            margin: 0;
-            max-width: 100%;
-
-            @media only screen and (min-width: 500px) {
-                padding: 0 0 0 19px;
-                max-width: none;
-            }
         }
     }
 
     .skill-section-title {
         @include title-list;
-
-        @media only screen and (max-width: 1331px) {
-                margin: 30px 0 10px 9px;
-            }
-    }
-
-    .other-skill-section-title {
-        @include title-list;
-        margin: 30px 0 10px 9px;
+        padding-left: 15px;
     }
 
     .skill-point-container {
         display: flex;
         flex-wrap: wrap;
         list-style: none;
-        padding: 0;
-        margin: 0;       
-
-        @media only screen and (min-width: 500px) {
-            max-width: 650px;
+        padding-left: 15px;
+          
+        @media only screen and (min-width: 769px) {
+            max-width: 600px;
         }
 
         .skill-point {  
-            margin: 10px;
+            margin: 8px 16px 8px 0;
             color: #111;
             background-color: #F0F0F0;
-            padding: 6px 20px;
+            padding: 6px 12px;
             border-radius: 5px;
             font-weight: 600;
             font-size: 0.9rem;
@@ -108,19 +85,19 @@
     } 
 
     .experience-container {
-        margin: 30px 0 0 0;
-        padding-left: 9px;
-
+        padding-left: 15px;
+        
         @include primary-description;
+        margin-top: 25px;
 
-        @media only screen and (min-width: 500px) {
-            max-width: 610px;
-            margin-right: 33px;
+        @media only screen and (min-width: 769px) {
+            max-width: 600px;
         }
 
         .section-title {
             @include title-list;
-            margin: 10px 0 0 0,
+            margin-top: 10px;
+            margin-left: 0;
         }
 
         .description {
@@ -134,21 +111,18 @@
     }
 
     .education-container {
-        margin: 10px auto;
-        padding-left: 19px;
+     
         @include primary-description;
 
-        @media only screen and (min-width: 500px) {
-            max-width: 610px;
-            
+        @media only screen and (min-width: 769px) {
+            max-width: 600px; 
         }
 
         .other-section-title {
             @include title-list;
-            margin: 35px 0 0 0,
+            margin-top: 35px;
         }
     }
-
 }
 
 

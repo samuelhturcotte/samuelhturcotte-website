@@ -47,7 +47,7 @@ function About() {
                         <li className="skill-point">Web Content Accessibility Guidelines</li>
                     </ul>
 
-                <h3 className="other-skill-section-title">Technical Skills</h3>
+                <h3 className="skill-section-title">Technical Skills</h3>
                     <ul className="skill-point-container">
                         <li className="skill-point">HTML</li>
                         <li className="skill-point">CSS</li>
@@ -64,7 +64,7 @@ function About() {
                     </ul>
 
 
-                <h3 className="other-skill-section-title">Tools</h3>
+                <h3 className="skill-section-title">Tools</h3>
                     <ul className="skill-point-container">
                         <li className="skill-point">Figma</li>
                         <li className="skill-point">InVision</li>
