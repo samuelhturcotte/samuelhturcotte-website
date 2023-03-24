@@ -16,7 +16,6 @@ export class Navigation extends React.Component {
                         <Link className="nav-items"  to="projects">Projects</Link>
                         <Link className="nav-items" to="/contact">Contact</Link>
                         <a className="nav-items" href="https://github.com/samuelhturcotte" target="_blank" rel="noreferrer" ><Github /></a>
-                        <a className="nav-items" href="https://linkedin.com/in/samuelhturcotte" target="_blank" rel="noreferrer" ><Linkedin /></a>
                         <div class="dot"></div>
                     </div>
                 <Link className="menu-link" to="/responsive"><List className="menu" /></Link>
