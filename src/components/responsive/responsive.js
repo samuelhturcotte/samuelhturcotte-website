@@ -1,7 +1,6 @@
 import React from "react";
 import './responsive.scss';
 import { Link } from "react-router-dom";
-import { Linkedin } from 'react-bootstrap-icons';
 import { Github } from 'react-bootstrap-icons';
 import { X } from 'react-bootstrap-icons';
 
