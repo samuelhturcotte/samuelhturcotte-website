@@ -9,9 +9,9 @@ function Recall() {
             <Link to="/case-studies/recall">
                 <Card className="card-container" style={{ width: '18rem' }}>
                     <div className="projects-recall-img" />
-                    <h1 className="projects-title-responsive">Ux Project</h1>
+                    <h1 className="projects-title-responsive">Recall(Ux)</h1>
                     <p className="projects-description-responsive">
-                    <span className="bold-text">Recall:</span> Subscriptions manager. </p>
+                    Subscriptions manager. </p>
                 </Card>
             </Link>
     );

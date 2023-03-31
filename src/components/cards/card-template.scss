@@ -7,7 +7,7 @@
     -moz-osx-font-smoothing: grayscale;
     transition-duration: 0.3s;
     transition-property: transform;
-    margin: 20px;
+    margin: 20px 30px;
     border-radius: 5px;
     border: none;
     min-width: 220px;
@@ -58,6 +58,18 @@
         background-position: 50%;
         border-radius: 100px;
     }
+
+        .projects-cmj-logo {
+            min-width: 130px;
+            max-width: 130px;
+            min-height: 125px;
+            max-height: 125px;
+            margin: 0 auto;
+            background-image: url('../../assets/images/main-pictures/cmj-logo.png');
+            background-size: cover;
+            background-position: 50%;
+            border-radius: 100px;
+        }
     
     .projects-title-responsive {
         position: absolute;
@@ -65,20 +77,20 @@
         left: 0;
         right: 0;
         text-align: center;
-        font-weight: 700;
-        font-size: 1.5rem;
+        font-weight: 600;
+        font-size: 1.4rem;
         color: #003a61;
     }
     
     .projects-description-responsive {
         position: absolute;
-        top: 180px;
+        top: 172px;
         left: 0;
         right: 0;
         text-align: center;
         margin: 0;
-        font-weight: 300;
-        font-size: 1rem;
+        font-weight: 400;
+        font-size: 1.1rem;
         color: #111;
     }
 }

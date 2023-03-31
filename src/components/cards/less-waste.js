@@ -10,9 +10,9 @@ function LessWaste() {
         <Link to="/case-studies/less-waste">
             <Card className="card-container" style={{ width: '18rem' }}>
                 <div className="projects-lesswaste-img" />
-                <h1 className="projects-title-responsive">Ux Project</h1>
+                <h1 className="projects-title-responsive">Less Waste (Ux)</h1>
                 <p className="projects-description-responsive">
-                    <span className="bold-text">Less Waste:</span> Waste Management App </p>
+                    Waste Management App </p>
             </Card>
         </Link>
     );
