@@ -7,17 +7,15 @@ function About() {
             <div className="about-intro-section">  
                 <img className="hellopic" src={require("../../assets/images/main-pictures/hello-img.png")} alt="recall" />
                 <p className="about-text">
-                    My name is Samuel Turcotte, a creative and detail-oriented UI/UX Designer with Front-End Web development experience.<br/><br/>
+                    My name is Samuel Turcotte, a creative and detail-oriented Front-End Developer with a UX Design education background.<br/><br/>
                     As a hard-of-hearing individual, I’ve had to overcome many different challenges throughout my life. It has made me someone that 
-                    can adapt to all sorts of environments and find creative solutions to overcome any accessible issues I can face both in life as 
-                    well as when it comes to digital design.<br /><br />
-                    Getting a UX education gave me all the knowledge and tools to design and manage digital products at any stage of the process while
-                    always focusing on users' needs to create usable and user-centric products. It has also allowed me to learn all the fundamental principles
-                    of user interface design and develop a sharp eye for detail that helps me build well-structured and aesthetically pleasing applications and websites.<br /><br />
-                    Throughout my time working in the industry as a front-end web developer, I have been able to develop my coding skills which give me the possibility to take a design
-                    to a real functioning product. It has also given me the flexibility to work with different teams and become an asset when it comes to bridging the gap between designers and developers.<br /><br />
-                    My life experiences, education and passion for tech have helped me every day in designing and building amazing digital products that have a positive impact on people's lives and I cannot wait 
-                    to continue growing my skillset and evolving in my career over the next coming years.
+                    can adapt to all sorts of environments and find creative solutions to any problems I can face both in life as well as when it comes to web development.<br /><br />
+                    Getting a UX education gave me a good understanding of the full process which helps me see the bigger picture and bridge the gap between designers and developers. 
+                    It has also given me a sharp eye for detail that helps me build aesthetic, usable, and well-designed software.<br /><br />
+                    Over time I discovered a love for turning my design into fully functioning software which made me want to learn coding which I can now consider my passion. 
+                    I am a proud self-taught developer with professional experience, and I am constantly striving to learn more and always get better.<br /><br />
+                    My life experiences, education and tech passion have truly helped me become an asset in any project I am working on and cannot wait to continue 
+                    developing my skillset and career over the next coming years.
                 </p>
 
                 <div class="education-container" >
@@ -30,22 +28,6 @@ function About() {
             </div>
             
             <div container="skill-main-container" >
-                <h3 className="skill-section-title">Design Skills</h3>
-                    <ul className="skill-point-container">
-                        <li className="skill-point">UX Research & Strategy</li>
-                        <li className="skill-point">Prototyping</li>
-                        <li className="skill-point">UI & UX Design</li>
-                        <li className="skill-point">User-Centered Design</li>
-                        <li className="skill-point">Wireframing</li>
-                        <li className="skill-point">Information Architecture</li>
-                        <li className="skill-point">Usability Testing</li>
-                        <li className="skill-point">Responsive Design</li>
-                        <li className="skill-point">Mockups</li>
-                        <li className="skill-point">Interaction Design</li>
-                        <li className="skill-point">Graphic Design</li>
-                        <li className="skill-point">Image Editing</li>
-                        <li className="skill-point">Web Content Accessibility Guidelines</li>
-                    </ul>
 
                 <h3 className="skill-section-title">Technical Skills</h3>
                     <ul className="skill-point-container">
@@ -62,6 +44,23 @@ function About() {
                         <li className="skill-point">REST APIs</li>
                         <li className="skill-point">Jest.js</li>
                     </ul>
+
+                <h3 className="skill-section-title">Design Skills</h3>
+                <ul className="skill-point-container">
+                    <li className="skill-point">UX Research & Strategy</li>
+                    <li className="skill-point">Prototyping</li>
+                    <li className="skill-point">UI & UX Design</li>
+                    <li className="skill-point">User-Centered Design</li>
+                    <li className="skill-point">Wireframing</li>
+                    <li className="skill-point">Information Architecture</li>
+                    <li className="skill-point">Usability Testing</li>
+                    <li className="skill-point">Responsive Design</li>
+                    <li className="skill-point">Mockups</li>
+                    <li className="skill-point">Interaction Design</li>
+                    <li className="skill-point">Graphic Design</li>
+                    <li className="skill-point">Image Editing</li>
+                    <li className="skill-point">Web Content Accessibility Guidelines</li>
+                </ul>
 
 
                 <h3 className="skill-section-title">Tools</h3>
