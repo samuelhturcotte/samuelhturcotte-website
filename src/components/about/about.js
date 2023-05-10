@@ -7,7 +7,7 @@ function About() {
             <div className="about-intro-section">  
                 <img className="hellopic" src={require("../../assets/images/main-pictures/hello-img.png")} alt="recall" />
                 <p className="about-text">
-                    My name is Samuel Turcotte, a creative and detail-oriented Front-End Developer with a UX Design education background.<br/><br/>
+                    My name is Samuel Turcotte, a creative and detail-oriented Web Developer with a UX Design education background.<br/><br/>
                     As a hard-of-hearing individual, I’ve had to overcome many different challenges throughout my life. It has made me someone that 
                     can adapt to all sorts of environments and find creative solutions to any problems I can face both in life as well as when it comes to web development.<br /><br />
                     Getting a UX education gave me a good understanding of the full process which helps me see the bigger picture and bridge the gap between designers and developers. 
@@ -20,8 +20,10 @@ function About() {
 
                 <div class="education-container" >
                     <h3 className="other-section-title">Education</h3>
+                    <h4 className="small-title">Codecademy | Certificate, Back-End Engineer Career Path</h4>
+                    <p class="time">Present, Online</p>
                     <h4 className="small-title">Codecademy | Certificate, Front-End Engineer Career Path</h4>
-                    <p class="time">2022, Toronto, ON</p>
+                    <p class="time">2021 - 2022, Online</p>
                     <h4 className="small-title">BrainStation | Diploma, User Experience Design</h4>
                     <p class="time">2021 - 2022, Toronto, ON</p>
                 </div>
@@ -89,6 +91,7 @@ function About() {
                         <li class="description-item">Worked with various teams and stakeholders to create and maintain digital experiences for multiple company products.</li>
                         <li class="description-item">Estimated project scope and participated in design discussions and code reviews.</li>
                         <li class="description-item">Engaged in quality assurance testing with an emphasis on troubleshooting production issues.</li>
+                        <li class="description-item">Tested for and implemented Web Content Accessibility Guidelines (WCAG).</li>
                         <li class="description-item">Tools: React, SASS, HTML, Figma, Git.</li>
                     </ul>
                 </div>
