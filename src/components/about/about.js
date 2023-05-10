@@ -77,6 +77,7 @@ function About() {
                         <li className="skill-point">Gatsby JS</li>
                         <li className="skill-point">Git</li>
                         <li className="skill-point">Vs Code</li>
+                        <li className="skill-point">Bitbucket</li>
                         <li className="skill-point">Jira</li>
                         <li className="skill-point">Content Mangement Systems</li>
                     </ul>
