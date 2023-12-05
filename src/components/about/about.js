@@ -85,7 +85,7 @@ function About() {
                 <div class="experience-container">
                     <h3 className="section-title">Experience</h3>
                     <h4 className="small-title">Front-End Web Developer | President's Choice Financial</h4>
-                    <p class="time">May 2022 - Present, Toronto, ON</p>
+                    <p class="time">May 2022 - June 2023 | Remote from Toronto</p>
                     <ul class="description">
                         <li class="description-item">Implement websites, landing pages, and applications from concept through deployment, with a responsive, mobile-first approach.</li>
                         <li class="description-item">Adapted websites to match changing user preferences and client demands with regular updates.</li>
