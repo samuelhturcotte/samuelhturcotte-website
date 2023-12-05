@@ -87,13 +87,10 @@ function About() {
                     <h4 className="small-title">Front-End Web Developer | President's Choice Financial</h4>
                     <p class="time">May 2022 - June 2023 | Remote from Toronto</p>
                     <ul class="description">
-                        <li class="description-item">Implement websites, landing pages, and applications from concept through deployment, with a responsive, mobile-first approach.</li>
-                        <li class="description-item">Adapted websites to match changing user preferences and client demands with regular updates.</li>
-                        <li class="description-item">Worked with various teams and stakeholders to create and maintain digital experiences for multiple company products.</li>
-                        <li class="description-item">Estimated project scope and participated in design discussions and code reviews.</li>
-                        <li class="description-item">Engaged in quality assurance testing with an emphasis on troubleshooting production issues.</li>
-                        <li class="description-item">Tested for and implemented Web Content Accessibility Guidelines (WCAG).</li>
-                        <li class="description-item">Tools: React, SASS, HTML, Figma, Git.</li>
+                        <li class="description-item">Conceptualized and implemented responsive, mobile-first websites and applications, elevating user engagement and satisfaction.</li>
+                        <li class="description-item">Collaborated with multiple teams and stakeholders to update digital assets, ensuring alignment with business demands, resulting in enhanced product relevance and competitiveness.</li>
+                        <li class="description-item">Participated in project scoping, estimating timelines and resources, contributing to streamlined execution and collaborative design processes.</li>
+                        <li class="description-item">Implemented rigorous quality assurance, troubleshooting production issues, and establishing robust QA methodologies, ensuring a flawless user experience.</li> 
                     </ul>
                 </div>
             </div>
