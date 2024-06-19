@@ -3,7 +3,7 @@
     text-align: left;
     margin: 0;
     font-weight: 700;
-    color: #003A61;
+    color: #242e3d;;
 }
 
 @mixin primary-description {
@@ -35,6 +35,12 @@
     margin: 110px 0 82px 0;
     padding: 10px 40px;
     line-height: 1.6rem;
+
+    .about-title {
+        font-size: 5rem;
+        color: #242e3d;
+      
+    }
 
     .about-intro-section {
         padding-left: 15px;

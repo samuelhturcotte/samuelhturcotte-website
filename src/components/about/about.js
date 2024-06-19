@@ -5,7 +5,7 @@ function About() {
     return (
         <div className="about-container">
             <div className="about-intro-section">  
-                <img className="hellopic" src={require("../../assets/images/main-pictures/hello-img.png")} alt="recall" />
+                <h1 className="about-title">Hello</h1>
                 <p className="about-text">
                     My name is Samuel Turcotte, a creative and detail-oriented Web Developer with a UX Design education background.<br/><br/>
                     As a hard-of-hearing individual, I’ve had to overcome many different challenges throughout my life. It has made me someone that 

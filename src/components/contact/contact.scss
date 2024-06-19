@@ -20,7 +20,7 @@ form {
         text-align: center;
         font-size: 2.6rem;
         font-weight: 600;
-        color: #003A61;
+        color: #242e3d;;
         margin: 20px auto;
     }
 
@@ -58,7 +58,7 @@ form {
 
     .contact-button {
         margin: 20px auto;
-        background-color: #003A61;
+        background-color: #242e3d;;
         color: white;
         padding: 6px 15px;
         border: none;
@@ -71,8 +71,9 @@ form {
         }
 
         &:hover {
-            background-color: #00F0FF;
-            color: #111;
+            background-color: white;
+            color: #242e3d;
+            border: 1px solid #242e3d;
             cursor: pointer;
         }
     }
